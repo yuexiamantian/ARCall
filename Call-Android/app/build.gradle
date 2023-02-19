@@ -9,7 +9,7 @@ android {
     defaultConfig {
         applicationId "org.ar.call"
         minSdkVersion 21
-        targetSdkVersion 30
+        targetSdkVersion 31
         versionCode 40
         versionName "1.4.0"
 
@@ -18,13 +18,13 @@ android {
 
     buildTypes {
         release {
-            buildConfigField("String", "APPID", '"APPID"')//请在这配置APPID 替换APPID
+            buildConfigField("String", "APPID", '"7a719b34a275649d8ef99d6d69e6b95c"')//请在这配置APPID 替换APPID
             buildConfigField("String", "ADDRESS", '"0.0.0.0"')//如果你有私有云 请在这配置私有云地址 替换0.0.0.0 没有勿改
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
         debug {
-            buildConfigField("String", "APPID", '"APPID"')//请在这配置APPID 替换APPID
+            buildConfigField("String", "APPID", '"7a719b34a275649d8ef99d6d69e6b95c"')//请在这配置APPID 替换APPID
             buildConfigField("String", "ADDRESS", '"0.0.0.0"')//如果你有私有云 请在这配置私有云地址 替换0.0.0.0 没有勿改
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'

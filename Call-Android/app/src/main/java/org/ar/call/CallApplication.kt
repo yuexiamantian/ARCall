@@ -15,6 +15,7 @@ import org.ar.call.utils.SpUtil
 import kotlin.properties.Delegates
 import android.media.AudioAttributes
 import android.net.Uri
+import com.kongzue.dialogx.BuildConfig
 import com.kongzue.dialogx.style.IOSStyle
 import com.tencent.bugly.crashreport.CrashReport
 
